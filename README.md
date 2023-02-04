@@ -1,5 +1,7 @@
 # 3kh0 Assets
-All games will be hosted here due to the amount of files.
+All games will be hosted here due to the amount of files. It overloads GitHub so hard, to GitHub, I am so sorry!
+
+Skidding this gets you no gain, so fuck off.
 
 If you want to check out the site, head to [https://3kh0.github.io](3kh0.github.io)
 
