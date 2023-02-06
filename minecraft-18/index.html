@@ -15,10 +15,13 @@
     <script type="text/javascript" src="classes.js"></script>
     <script type="text/javascript" src="fix-webm-duration.js"></script>
     <script type="text/javascript">
+      "use strict";
       window.addEventListener("load", () => {
         if (document.location.href.startsWith("file:")) {
           alert("HTTP please, do not open this file locally, run a local HTTP server and load it via HTTP");
         } else {
+          // %%%%%%%%% launch options %%%%%%%%%%%%
+
           window.eaglercraftXOpts = {
             container: "game_frame",
             assetsURI: "assets.epk",
@@ -30,8 +33,19 @@
               { addr: "wss://beta.vanillacraftsmp.org/", name: "VanillaCraft" },
               { addr: "wss://mc.sealcentral.co", name: "SealCraft" },
               { addr: "wss://g.deev.is/eaglerx-reference", name: "Reference Implementation" },
+              /* example: { addr: "ws://localhost:8081/", name: "Local test server" } */
             ],
           };
+
+          // %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+          var q = window.location.search;
+          if (typeof q === "string" && q.startsWith("?")) {
+            q = new URLSearchParams(q);
+            var s = q.get("server");
+            if (s) window.eaglercraftXOpts.joinServer = s;
+          }
+
           main();
         }
       });
