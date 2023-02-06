@@ -1,5 +1,5 @@
 // constants
-const WEB_WORKER_URL = 'scripts/worker.js';
+const WEB_WORKER_URL = 'https://raw.githack.com/3kh0/3kh0-assets/main/align-4/scripts/worker.js';
 const BLURBS = {
   'start': {
     header: 'Get Ready',
@@ -7,7 +7,7 @@ const BLURBS = {
   },
   'p1-turn': {
     header: 'Your Turn',
-    blurb: 'Click on the board to drop your chip.'
+    blurb: 'Click on the board to drop your chip. I bet the computer will beat you.'
   },
   'p2-turn': {
     header: 'Computer\'s Turn',
@@ -19,7 +19,7 @@ const BLURBS = {
   },
   'p2-win': {
     header: 'Computer Wins',
-    blurb: 'Try again when you\'re done wiping your tears of shame.'
+    blurb: 'Try again when you\'re done wiping your tears of shame. Just seems like you have a skill issue.'
   },
   'tie': {
     header: 'Tie',
