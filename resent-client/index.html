@@ -20,16 +20,18 @@
       </div>
     </div>
 
-    <div class ="stuff" id="notice">
-      <h3>NOTICE:
-      </br>
-      </br>
-        Resent 1.8 has been released! click on 
-      <a href = "/1.8/index.html">this link</a>
-      to beta test. If you find any bugs, please report that on the
-      <a href = "https://github.com/ThisIsALegitUsername/Resent-web/issues">issues feed</a>
-      or the
-      <a href = "https://discord.gg/CwU8pnbRMz">discord.</a> In your report, make sure to include what you were doing, and a picture of the crash error/bug.</h3>
+    <div class="stuff" id="notice">
+      <h3>
+        NOTICE:
+        <br />
+        <br />
+        Resent 1.8 has been released! click on
+        <a href="/1.8/index.html">this link</a>
+        to beta test. If you find any bugs, please report that on the
+        <a href="https://github.com/ThisIsALegitUsername/Resent-web/issues">issues feed</a>
+        or the
+        <a href="https://discord.gg/CwU8pnbRMz">discord.</a> In your report, make sure to include what you were doing, and a picture of the crash error/bug.
+      </h3>
     </div>
 
     <div class="stuff" id="quickstart">
@@ -173,10 +175,10 @@
           if (PackSelect.selectedIndex !== 0) {
             var Selected = PackSelect.options[PackSelect.selectedIndex].value;
             document.getElementById("Selection").style.display = "none";
-document.getElementById("changelog").style.display = "none";
-document.getElementById("quickstart").style.display = "none";
-document.getElementById("notice").style.display = "none";
-            
+            document.getElementById("changelog").style.display = "none";
+            document.getElementById("quickstart").style.display = "none";
+            document.getElementById("notice").style.display = "none";
+
             localStorage.LastPack = Selected;
             const relayId = Math.floor(Math.random() * 3);
             window.eaglercraftOpts = {
