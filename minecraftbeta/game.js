@@ -316,7 +316,7 @@ if (ENVIRONMENT_IS_WEB || ENVIRONMENT_IS_WORKER) {
     xhr.send(null);
   };
 
-  Module['setWindowTitle'] = function(title) { document.title = "Minecraft Classic Hacks | 3kh0" };
+  Module['setWindowTitle'] = function(title) { document.title = "Minecraft Classic Hacks" };
 } else
 {
 }
@@ -5064,7 +5064,7 @@ function copyTempDouble(ptr) {
     }
 
   function _interop_SetPageTitle(title) {
-      document.title = "Minecraft Classic Hacks | 3kh0";
+      document.title = "Minecraft Classic Hacks";
     }
 
   function _interop_ShowDialog(title, msg) {

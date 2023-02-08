@@ -216,4 +216,3 @@ var story = {
   example1: ["MESSAGE", 1, ["CHOICEDESC", "SCENEID"]],
   example2: ["MESSAGE", 2, "CORRECTNUM", "RIGHTCHOICEID", "WRONGCHOICEID"],
 };
-// this is for 3kh0.github.io, stop copying shit you skids

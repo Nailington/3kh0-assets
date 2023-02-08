@@ -147,9 +147,7 @@ function HTMLActuator() {
     var tweet = document.createElement("a");
     tweet.classList.add("twitter-share-button");
     tweet.setAttribute("href", "https://twitter.com/share");
-    tweet.setAttribute("data-via", "3kh0");
-    tweet.setAttribute("data-url", "http://git.io/lrmEpA");
-    tweet.setAttribute("data-counturl", "http://3kh0.github.io/");
+    tweet.setAttribute("data-counturl", "https://example.com/");
     tweet.textContent = "Tweet";
   
     var text = "I scored " + this.score + " points at 1, a game where you " +

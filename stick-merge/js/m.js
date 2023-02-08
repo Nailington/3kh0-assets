@@ -1243,7 +1243,6 @@ class Preloader extends Phaser.Scene {
         }
         if (MainGame.isAPI) MainGame.API_POKI.gameLoadingProgress(loadProgress)
     }
-    // 3kh0 on top
     onLoadStart() {
         if (MainGame.isAPI) MainGame.API_POKI.gameLoadingStart()
     }

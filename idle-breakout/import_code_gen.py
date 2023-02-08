@@ -10,7 +10,7 @@
 
 import base64
 
-print("Welcome to the interactive \nIdle Breakout import code generator by 3kh0!\n\nPlease enter numbers for the questions.\n------------------------------------------")
+print("Welcome to the interactive \nIdle Breakout import code generator by People!\n\nPlease enter numbers for the questions.\n------------------------------------------")
 
 print("What level you want to be on?")
 level = input()
@@ -35,4 +35,4 @@ print("\nGenerating....")
 print("------------------------------------------\nHere is your code:\n")
 print(result)
 print("\nCopy whats INSIDE the single quotes!\n\n------------------------------------------")
-print("Idle Breakout import code generator by 3kh0.")
+print("Idle Breakout import code generator by People.")

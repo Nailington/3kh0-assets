@@ -1,5 +1,4 @@
 // constants
-const WEB_WORKER_URL = 'https://raw.githack.com/3kh0/3kh0-assets/main/align-4/scripts/index.js';
 const BLURBS = {
   'start': {
     header: 'Get Ready',

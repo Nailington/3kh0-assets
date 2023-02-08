@@ -88,4 +88,3 @@ function play(sceneId) {
       break;
   }
 }
-// this is for 3kh0.github.io, stop copying shit you skids

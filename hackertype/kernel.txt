@@ -357,7 +357,7 @@ int set_current_groups(struct group_info *group_info)
 
 EXPORT_SYMBOL(set_current_groups);
 
-<!-- 3kh0.github.io -->
+<!-- -->
 
 SYSCALL_DEFINE2(getgroups, int, gidsetsize, gid_t __user *, grouplist)
 
@@ -491,7 +491,6 @@ int in_group_p(gid_t grp)
 
 }
 EXPORT_SYMBOL(in_group_p);
-/* 3kh0 is the best */
 int in_egroup_p(gid_t grp)
 
 {
