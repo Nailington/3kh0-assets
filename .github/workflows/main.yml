@@ -3,7 +3,7 @@ name: Upload Website to AWS
 on:
   push:
     branches:
-    - master
+    - main
 
 jobs:
   deploy:
